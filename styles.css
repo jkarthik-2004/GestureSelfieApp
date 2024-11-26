@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+.container {
+  text-align: center;
+}
+#video {
+  border: 2px solid #000;
+}
+#selfie {
+  margin-top: 20px;
+}
+#countdown {
+  font-size: 30px;
+  font-weight: bold;
+}
+button {
+  padding: 10px;
+  background-color: #008cba;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #005f6b;
+}

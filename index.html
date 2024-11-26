@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <title>Gesture Recognition Selfie</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/holistic"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+  </head>
+  <body>
+    <div class="container">
+      <video id="video" width="640" height="480" autoplay></video>
+      <canvas id="canvas" width="640" height="480"></canvas>
+      <div id="countdown"></div>
+      <button id="startBtn">Start Countdown</button>
+      <div id="selfie">
+        <h2>Your Selfie:</h2>
+        <img id="selfieImg" src="" alt="Captured Selfie" />
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
